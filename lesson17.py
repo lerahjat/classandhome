@@ -67,7 +67,7 @@ class Task:
 
     def add_location(self):
         place_lookup = input('Enter location name: \t')
-        with Maps(key='AIzaSyDZUTx1HWrOcNDng1V7-smaaHTBSobrw0I') as gmaps:
+        with Maps(key='AIzaSyCZ8gzf2JOsUXTTXwG7lXWiLw5LFJ0-qRI') as gmaps:
             place = gmaps.find_place(
                 place_lookup,
                 'textquery',
